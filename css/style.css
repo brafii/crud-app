@@ -1,0 +1,33 @@
+:root{
+    --default-color: #435d7d;
+    --primary-color: #5cb85c;
+}
+
+.header{
+    background-color: var(--default-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+.header a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+.employee-form{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.submit-button{
+    background-color: var(--default-color);
+    border-color: var(--default-color);
+}
+.submit-button:hover{
+    background-color: var(--default-color);
+    border-color: var(--default-color);
+}
